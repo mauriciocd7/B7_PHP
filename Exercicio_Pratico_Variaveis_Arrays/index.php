@@ -11,8 +11,6 @@
         'vida' => 1000,
         'mana' => 928,
     ];
-
-
     
     echo "Nome: ".$lista['nome']."<br>";    
     echo "Idade: ".$lista['idade']."<br>";
@@ -22,5 +20,5 @@
     echo "Vida: ".$lista['vida']."<br>";    
     echo "Mana: ".$lista['mana']."<br>";
 
-    echo '<pre>'; print_r($lista); echo '<pre/>';
+    echo '<pre>'; print_r($lista); echo '<pre/>'; //Visualização Array
 ?>
